@@ -9,9 +9,9 @@ $get = $_GET;
 // define array
 $json = array();	
 
-$site_url = 'https://generations.edu.pk/';
-$site_name = 'Generations'; 
-$site_email = 'kashif.machie@gmail.com'; 
+$site_url = 'https://yoursiteurl.com/';
+$site_name = 'Your site name'; 
+$site_email = 'someemail@gmail.com'; 
 
 // create record in database
 if(!empty($post['action']) && $post['action']=="create") {
